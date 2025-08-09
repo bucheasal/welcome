@@ -5,7 +5,7 @@ public class Car {
     int speed;
 
     Car(String model){
-        this.model=model;
+        this.model = model;
     }
     void setSpeed(int speed){
         this.speed=speed;
@@ -26,7 +26,7 @@ public class Car {
 
     //정적 멤버는 인스턴스 멤버를 사용할 수 없다(객체가 필요없기 때문임). 굳이 쓰려면 내부에서 갹채 생성하고 쓰셈 main도 마찬가지
 
-    //final필드, 상수
+    /*final필드, 상수
     final String nation ="대한민국";
     final String ssn; //final 필드 초기화 안 할거면 생성자에서 초기화
     String name;
@@ -36,5 +36,5 @@ public class Car {
     }
 
     //상수는 static final 타입 상수 ,초기화는 final 과 마찬가지
-
+*/
 }
